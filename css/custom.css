@@ -1,0 +1,59 @@
+body {
+    padding-top: 50px;
+}
+
+.business-header {
+    height: 400px;
+    background: url('../img/cloud-ray.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.brand-logo {
+    display: block;
+    width: 200px;
+    margin: 70px auto 0;
+}
+
+.business-header h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #eee;
+    text-shadow: 0 0 10px #000;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #ddd;
+    text-align: center;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.marketing-img img {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition : -webkit-filter 0.3s;
+}
+.marketing-img img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-brand {
+    padding: 12px 15px;
+}
+
+.navbar-brand > img {
+    display: inline;
+    margin: 0 1em;
+}
